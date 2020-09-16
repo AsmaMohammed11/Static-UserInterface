@@ -1,0 +1,264 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@media screen and (max-width:1440px){
+
+
+body{
+
+background-color: hsl(229, 57%, 11%);
+
+
+width: 1440px;
+
+
+}
+
+#talkbubble {
+    width: 130px;
+    height: 40px;
+    background: white;
+    position: relative;
+    color: black;
+    border-radius: .4em;
+    bottom: 56px;
+    right: 165px;
+    text-align: center;
+    padding-top: 3px;
+    font-family:  'Raleway', sans-serif;
+  }
+  #talkbubble:before {
+    content: "";
+    width: 0;
+    top: 35px;
+    left: 116px;
+    border-width: 18px 0px 0px 14px;
+    border-style:  solid ;
+border-color: white transparent;
+ display: block;
+ position: absolute;
+    
+  }
+
+.icon{
+background-color:  hsl(229, 57%, 11%);
+padding: 6px;
+border-radius: 4px 4px 4px 4px;
+margin-right: 5px;
+
+
+}
+#image{
+    margin-top: 280px;
+    background-image: url('images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(229, 57%, 11%);
+     padding-bottom:  275px;
+     padding-right: 233px;
+    position: absolute;
+    bottom: 0;
+   
+   display: flex;
+
+    padding-left: 258px;}
+#box_1{
+    
+    margin-top: -70PX;
+   text-align: left;
+    border-radius: 10px 80px 10px 10px;
+    background-color: hsl(228, 56%, 26%);
+    width: 280px;
+    height: 150px;
+ 
+   
+}
+#Sentence{
+    
+    Font-size: 14px;
+    font-weight: 70; 
+    color: white;
+    text-align: left;
+    margin-left: 35px;
+    margin: 25px 35px -7px;
+}
+#box_2{
+    border-radius: 6px 6px 6px 6px;
+    margin-top: -30PX;
+    text-align: center;
+    margin-left: 35px;
+    background-color:  hsl(228, 56%, 26%);
+    width: 440px;
+    height: 110px;
+}
+
+#msg{
+    color: white;
+   padding-top: 3px;
+border-radius: 30px;
+border-right: 50px;
+font-family:  'Raleway', sans-serif;
+        height: 300px;
+        width: 500px;
+    }
+#progressbar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 13px;
+  
+    padding: 3px;
+    text-align: left;
+    margin: 15px auto 1px auto;
+  width: 85%;
+  height: 15px;
+
+
+
+  }
+  
+  #progressbar>div {
+    background-image: linear-gradient(to left  ,hsl(335, 100%, 65%), hsl(6, 100%, 80%));
+    
+    width: 78%;
+
+    height: 9px;
+    border-radius: 10px;
+  }
+.text{
+
+ margin: 1px;
+ color: hsl(243, 100%, 93%);
+ Font-size: 14px;
+ font-weight: 700;
+ display: inline-block;
+}
+  #circle{
+      width: 9px;
+      margin-left: 97%;
+      height: 9px;
+      background-color: white;
+      border-radius: 60px;
+  }
+}
+
+  @media (max-width:475px){
+ 
+  #talkbubble {
+      width: 130px;
+      height: 40px;
+      background: white;
+      position: relative;
+      color: black;
+      border-radius: .4em;
+      bottom: 56px;
+      right: 165px;
+      text-align: center;
+      padding-top: 3px;
+      font-family:  'Raleway', sans-serif;
+    }
+    #talkbubble:before {
+      content: "";
+      width: 0;
+      top: 35px;
+      left: 116px;
+      border-width: 18px 0px 0px 14px;
+      border-style:  solid ;
+  border-color: white transparent;
+   display: block;
+   position: absolute;
+      
+    }
+  
+  .icon{
+  background-color:  hsl(229, 57%, 11%);
+  padding: 6px;
+  border-radius: 4px 4px 4px 4px;
+  margin-right: 5px;
+  
+  
+  }
+    #image{
+   
+      background-image: url('images/bg-mobile.svg');
+      background-repeat: no-repeat;
+      background-color: hsl(229, 57%, 11%);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
+  
+  }
+  #box_1{
+    
+    margin-top: -290px;
+   text-align: left;
+    border-radius: 10px 80px 10px 10px;
+    background-color: hsl(228, 56%, 26%);
+    width: 280px;
+    height: 150px;
+ 
+   
+}
+#Sentence{
+    
+    Font-size: 14px;
+    font-weight: 70; 
+    color: white;
+    text-align: left;
+    margin-left: 35px;
+    margin: 25px 35px -7px;
+}
+#box_2{
+    border-radius: 6px 6px 6px 6px;
+    margin-top: -30PX;
+    text-align: center;
+    margin-left: -144px;
+    background-color:  hsl(228, 56%, 26%);
+    width: 440px;
+    height: 110px;
+}
+
+#msg{
+    color: white;
+   padding-top: 3px;
+border-radius: 30px;
+border-right: 50px;
+font-family:  'Raleway', sans-serif;
+        height: 300px;
+        width: 500px;
+    }
+#progressbar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 13px;
+  
+    padding: 3px;
+    text-align: left;
+    margin: 15px auto 1px auto;
+  width: 85%;
+  height: 15px;
+
+
+
+  }
+  
+  #progressbar>div {
+    background-image: linear-gradient(to left  ,hsl(335, 100%, 65%), hsl(6, 100%, 80%));
+    
+    width: 78%;
+
+    height: 9px;
+    border-radius: 10px;
+  }
+.text{
+
+ margin: 1px;
+ color: hsl(243, 100%, 93%);
+ Font-size: 14px;
+ font-weight: 700;
+ display: inline-block;
+}
+  #circle{
+      width: 9px;
+      margin-left: 97%;
+      height: 9px;
+      background-color: white;
+      border-radius: 60px;
+  }
+}
